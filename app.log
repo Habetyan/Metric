@@ -1,0 +1,893 @@
+2024-05-06 13:35:19,894:ERROR:An error occurred: 
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    page_content = fetch_page_content(url)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = get_browser().new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = sync_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 13:36:35,690:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    page_content = fetch_page_content(url)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = get_browser().new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = sync_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 13:36:36,858:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    page_content = fetch_page_content(url)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = get_browser().new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = sync_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 13:36:37,481:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    page_content = fetch_page_content(url)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = get_browser().new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = sync_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 13:36:56,767:ERROR:Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    page_content = fetch_page_content(url)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = get_browser().new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = sync_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 13:38:51,792:ERROR:Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 13:38:51,795:ERROR:Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 13:49:16,622:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    page_content = fetch_page_content(url)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = get_browser().new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = sync_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 13:54:20,729:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    page_content = fetch_page_content(url)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = get_browser().new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = sync_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:02:26,930:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo", openai_api_key=openai_api_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = await browser.new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = await async_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:03:05,282:ERROR:Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo", openai_api_key=openai_api_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = await browser.new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = await async_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:03:32,289:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo", openai_api_key=openai_api_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = await browser.new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = await async_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:03:35,249:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo", openai_api_key=openai_api_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = await browser.new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = await async_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:23:51,191:ERROR:Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo", openai_api_key=openai_api_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = await browser.new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = await async_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:23:51,193:ERROR:Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo", openai_api_key=openai_api_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = await browser.new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = await async_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:23:51,195:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo", openai_api_key=openai_api_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = await browser.new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = await async_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:23:54,355:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo", openai_api_key=openai_api_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = await browser.new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = await async_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:23:56,663:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo", openai_api_key=openai_api_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    page = await browser.new_page()
+           ^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    playwright = await async_playwright().start()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:29:28,258:ERROR:Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    if __name__ == "__main__":
+                           ^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    return data
+       ^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    text = soup.get_text()
+                 ^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:29:28,259:ERROR:Future exception was never retrieved
+future: <Future finished exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    if __name__ == "__main__":
+                           ^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    return data
+       ^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    text = soup.get_text()
+                 ^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:29:28,257:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    if __name__ == "__main__":
+                           ^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    return data
+       ^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    text = soup.get_text()
+                 ^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:29:29,062:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    if __name__ == "__main__":
+                           ^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    return data
+       ^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    text = soup.get_text()
+                 ^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2024-05-06 14:29:30,023:ERROR:An error occurred
+Traceback (most recent call last):
+  File "C:\Projects\Metric\pythonProject\main.py", line 51, in extract_information
+    if __name__ == "__main__":
+                           ^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 32, in fetch_page_content
+    return data
+       ^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\main.py", line 26, in get_browser
+    text = soup.get_text()
+                 ^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 84, in start
+    return self.__enter__()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 263, in run_as_sync
+    await self.run()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_connection.py", line 272, in run
+    await self._transport.connect()
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Projects\Metric\pythonProject\venv\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 223, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1708, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AHabe\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 503, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
